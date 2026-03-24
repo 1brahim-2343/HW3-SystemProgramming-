@@ -166,7 +166,7 @@ namespace HW3_SystemProgramming_
         static void Start()
         {
             string initialText = "Acquiring card data";
-            //initialText.ShowLoadingAnimation();
+            initialText.ShowLoadingAnimation();
             Console.WriteLine("[E] to exit");
             Console.WriteLine("[I] to continue");
             var choice = Console.ReadKey();
